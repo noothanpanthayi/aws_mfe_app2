@@ -40,12 +40,21 @@
   padding: 2em;
 }
 
+.card2 {
+  margin:10px;
+  max-width: 400px;
+  border:solid 1px silver;
+  border-radius:6px;
+  padding: 2em;
+  cursor: pointer;
+}
+
 
 .read-the-docs {
   color: #888;
 }
 
-.card2 a:link, .card2 a:visited {
+.card2 div {
   font-weight: bold;
 }
 
