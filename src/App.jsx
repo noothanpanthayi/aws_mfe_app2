@@ -9,7 +9,7 @@ function App() {
 
   return (
     <>
-    <div className='card2'>
+    <div className='cardMain'>
       <div>
         <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
@@ -19,10 +19,11 @@ function App() {
         </a>
       </div>
       <h1>Vite + React</h1>
-      <div className="card2">
+      <div onClick={()=>window.open('https://main.d6col50lk7dxx.amplifyapp.com/')} className="card1"
+        title="Navigate to React Application 2 in AWS">
         <div className="appName2">React Application 2</div>
-        <div>
-        <a target="_blank" href="https://main.d6col50lk7dxx.amplifyapp.com/">Hosted on AWS</a>
+        <div className='link'>
+        Hosted on AWS
          </div>
       </div>
       <p className="read-the-docs">

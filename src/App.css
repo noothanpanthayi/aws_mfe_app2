@@ -32,13 +32,12 @@
   }
 }
 
-.card2 {
+.cardMain {
   margin:10px;
   max-width: 400px;
   border:solid 1px silver;
   border-radius:6px;
   padding: 2em;
-  /* box-shadow: 2px 3px 6px 1px silver; */
 }
 
 
@@ -47,9 +46,6 @@
 }
 
 .card2 a:link, .card2 a:visited {
-  color: blue;
-  text-decoration: underline;
-  font-size: 18px;
   font-weight: bold;
 }
 
@@ -61,4 +57,10 @@
   font-size:22px;
   color:green;
   font-weight: bold;
+}
+
+.link {
+  font-size: 18px;
+  color:blue;
+  text-decoration: underline;
 }
