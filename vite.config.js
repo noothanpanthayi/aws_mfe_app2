@@ -15,7 +15,7 @@ export default defineConfig({
       shared:["react", "react-dom"]
     }),
   ],
-  base:'/child2/',
+  base:'/page2/',
   build:{
     modulePreload:false,
     target:"esnext",
