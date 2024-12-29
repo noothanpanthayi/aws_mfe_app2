@@ -21,5 +21,12 @@ export default defineConfig({
     target:"esnext",
     minify:false,
     cssCodeSplit:false
-  }
+  },
+  server: { 
+    cors: { 
+    origin: 'http://3.83.250.40',  
+    methods: ['GET', 'POST', 'OPTIONS'], 
+    allowedHeaders: ['Origin', 'Content-Type', 'Accept', 'Authorization'] 
+    }
+    }
 })
