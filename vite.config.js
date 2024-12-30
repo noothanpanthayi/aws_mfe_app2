@@ -23,6 +23,12 @@ export default defineConfig({
     cssCodeSplit:false
   },
   server: { 
+    proxy: {
+      '/page1/assets': { // Adjust the path if necessary
+        target: 'http://localhost:6002', 
+        changeOrigin: true 
+      }
+    },
     cors: { 
     origin: 'http://3.83.250.40',  
     methods: ['GET', 'POST', 'OPTIONS'], 
